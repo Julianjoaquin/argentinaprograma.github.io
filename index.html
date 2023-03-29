@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Currículum Christian Ramirez</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Enlaza la hoja de estilos CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body id="Principal"> 
+	
+	<header>
+		 
+		<h1>Christian Wilbemar</h1>
+	
+	</header>
+	<main>
+
+		<table class="menu">
+            <tr>
+              <td style="border: 1px dashed #ffffff"> <a href="#datospersonales"
+                <i class="fa-solid fa-person" width="80 height"80" ></i>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+              </a></td>
+              <td style="border: 1px dashed #ffffff"><a href="#educacion">
+                <i class="fa-solid fa-building-columns"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+              </a></td>
+            </tr>
+            <tr>
+              <td style="border: 1px dashed #ffffff"><a href="#experiencia">
+                <i class="fa-solid fa-network-wired"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+              </a></td>
+              <td style="border: 1px dashed #ffffff"><a href="#habilidades">
+                <i class="fa-solid fa-computer"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+              </a></td>
+            </tr>
+          </table>
+
+		  
+
+
+		
+
+
+
+		 
+
+		<section id="datospersonales" align="center">
+			<h2 ><i class="fa-solid fa-person"></i> Información Personal</h2>
+			<ul>
+				<li><strong>Nombre:</strong> Christian Wilbemar</li>
+				<li><strong>Edad:</strong> 23</li>
+				<li><strong>Estado Civil:</strong> Soltero</li>
+				<li><strong>Nacionalidad:</strong> Paraguayo</li>
+				<li><strong>Dirección:</strong> 779 Photinia Ave</li>
+				<li><strong>Teléfono:</strong> (54) 11697370</li>
+				<li><strong>Correo electrónico:</strong> christian.wilbemar@example.com</li>
+				
+				
+
+			</ul>
+		</section>
+		<section id="educacion" align="center">
+			<h2><i class="fa-solid fa-building-columns"></i> Educación</h2>
+			<ul>
+				<li><strong>Primaria:</strong>EPB Angeles Del Señor</li>
+				<li><strong>Secundaria:</strong>Academia Salomon</li>
+				<li><strong>Universidad:</strong> Universidad Nacional de Córdoba</li>
+				<li><strong>Carrera:</strong> Licenciatura en Informática</li>
+				<li><strong>Fecha de graduación:</strong> Diciembre 2021</li>
+				
+			</ul>
+		</section>
+		<section id="experiencia"  align="center">
+			<h2><i class="fa-solid fa-network-wired"></i> Experiencia Laboral</h2>
+			<ul>
+				<li>
+					<strong></strong>
+					<strong>Empresa:</strong> Monster.INC<br>
+					<strong>Cargo:</strong> Desarrollador web<br>
+					<strong>Fecha:</strong> Enero 2022 - Presente<br>
+					<strong>Descripción:</strong> Desarrollo y mantenimiento de aplicaciones web<br>
+					
+				</li>
+			</ul>
+		</section>
+		<section id="habilidades"  align="center">
+			<h2><i class="fa-solid fa-computer"></i> Habilidades</h2>
+			<ul>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>JavaScript</li>
+				<li>PHP</li>
+				<li>Unity</li>
+				<li>Blender3d</li>
+			</ul>
+		</section>
+	
+	</main>
+
+	<script>
+		// Agrega una clase al encabezado al hacer clic en él
+		document.querySelector('header').addEventListener('click', function() {
+			this.classList.toggle('encabezado-activo');
+		});
+
+		// Agrega una clase al resaltar un elemento de la lista
+		document.querySelectorAll('li').forEach(function(elemento) {
+			elemento.addEventListener('mouseover', function() {
+				this.classList.add('resaltado');
+			});
+
+			elemento.addEventListener('mouseout', function() {
+				this.classList.remove('resaltado');
+			});
+		});
+	</script>
+</body>
+</html>
